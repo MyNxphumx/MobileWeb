@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 4 - Photo Gallery</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      max-width: 900px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 16px;
+      color: #1e3c72;
+    }
+
+    img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 12px;
+      border: 3px solid #e0e0e0;
+      margin-bottom: 20px;
+    }
+
+    .link-box {
+      margin-top: 10px;
+    }
+
+    .link-box a {
+      text-decoration: none;
+      background-color: #2a5298;
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.2s;
+      display: inline-block;
+    }
+
+    .link-box a:hover {
+      background-color: #1e3c72;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Lab 4 : Photo Gallery</h1>
+
+    <!-- แสดงภาพหน้าจอ -->
+    <img src="./img/lab4.png" alt="Screenshot Lab 4" />
+
+    <!-- ลิงก์ใต้ภาพ -->
+    <div class="link-box">
+      <a href="https://drive.google.com/file/d/16iiJD_hLq_lomf4m5lnSHj0HSIcsGULe/view?usp=drive_link" target="_blank">
+        🔗 Dowload .apk
+      </a>
+    </div>
+
+    <div class="footer">
+      โดย ภูมิภัทร รีพิมพ์ รหัส 673380019-3
+    </div>
+  </div>
+</body>
+</html>
