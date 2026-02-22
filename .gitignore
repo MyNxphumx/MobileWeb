@@ -21,6 +21,8 @@ logs/
 .capacitor/
 .vite/
 *.local
+dist/
+.en
 
 # Android / IDE
 .idea/
@@ -31,3 +33,4 @@ node_modules/
 
 # pnpm (ถ้าไม่บังคับ)
 pnpm-lock.yaml
+
