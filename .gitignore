@@ -34,3 +34,12 @@ node_modules/
 # pnpm (ถ้าไม่บังคับ)
 pnpm-lock.yaml
 
+# Android / Ionic
+android/
+.gradle/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
